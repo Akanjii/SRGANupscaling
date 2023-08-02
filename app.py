@@ -20,7 +20,7 @@ with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 st.title('PIXEL PERFECT')
-st.write('Upscale and enhance any image by using our SRGAN model.')
+st.write('Upscale and enhance any image by using AI')
 
 with st.sidebar:
     st.write("It can used for anything! From preserving old media material to \
